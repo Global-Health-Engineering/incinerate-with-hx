@@ -20,7 +20,7 @@
 <img src="img/ETH_GHE_logo_negative.svg" width=600>
 <br><br>
 <b>Complete description of system design, functionalities, operation, and maintenance is available on:<br \>
-<a href="">Github pages</a>.
+<a href="https://global-health-engineering.github.io/incinerate-with-hx/">Github pages</a>.
 </b>
 <br><br>
 It compliments the openly-accessible master’s thesis, available on the<br \>  

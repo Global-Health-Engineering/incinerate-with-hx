@@ -34,7 +34,7 @@ This documentation details the improvements introduced to the incinerators const
 
 Documentation of the initial incinerator is available [here](https://global-health-engineering.github.io/incinerator-design-cape-maclear/). The work detailed in this repository and the underlying thesis addresses the challenges in the construction, visible through material degradation and combustion efficiency deterioration, after one year of operation.
 
-![Figure 1. Clogged cyclone separator and chimney causing the smoke to evacuate through all cracks.](img/photo/clogged_chimney.jpg){width=80%}
+![Figure 1. Clogged cyclone separator and chimney causing the smoke to evacuate through all cracks.](img/photo/clogged_chimney.jpg){width=50%}
 
 During initial testing, it became apparent that the cyclone separator, too small a chimney and cracks in the construction did not provide satisfactory conditions for complete combustion and became a bottleneck in the design, making the operation of the incinerators unbearable to the operators, questioning project's relevance.
 
@@ -45,17 +45,51 @@ To ensure consistency across reporting, all the cost calculations were converted
 : Table 1. Costs of existing incinerators' fixes.
 
 | **Category**       | **Details**                           | **Price (MWK)** | **Price (USD)** |
-|:-------------------|:--------------------------------------|:----------------|:----------------|
+|:-------------------|:--------------------------------------|-----------------|-----------------|
 | Cement             | Fixing cracks                         | 137,500         | 68.75           |
 | Bricks             | Replacing cracked bricks              | 36,000          | 18.00           |
 | Sand               | To mix with cement                    | 18,000          | 9.00            |
-| Bolts & Nuts       | M10                                   | 8,000           | 4.00            |
+| Bolts & nuts       | M10                                   | 8,000           | 4.00            |
 | Timber wire        | -                                     | 18,000          | 9.00            |
 | Labor              | 2 days of work (builder and helper)   | 34,000          | 17.00           |
 | Chimneys           | 8 meters in total                     | 650,000         | 325.00          |
 | Welding            | Chimneys and air vents                | 100,000         | 50.00           |
 | **TOTAL**          | for two incinerators                  | **933,500**     | **391.75**      |
 | **Total per incinerator** | -                              | **466,750**     | **233.38**      |
+
+: Table 2. Costs of adding a heat exchanger to the incinerator.
+
+| **Category**          | **Details**                            | **Price (MWK)** | **Price (USD)** |
+|-----------------------|----------------------------------------|-----------------|-----------------|
+| Copper pipes          | 15 meters, 1/2" diameter              | 200,000         | 100.00          |
+| Plastic drum          | 210 L capacity                        | 100,000         | 50.00           |
+| Tabs                  | 2 drilled into each drum              | 4,000           | 2.00            |
+| Steel wire            | -                                     | 18,500          | 9.25            |
+| Labor                 | Assembling & pipe bending             | 58,500          | 29.25           |
+| Lid                   | To cover the plastic drum             | 15,000          | 7.50            |
+| Adhesive              | Ensures air-tightness of the holes    | 5,250           | 2.61            |
+| **Total**             | -                                     | **398,750**     | **199.38**      |
+
+: Table 3. Waste Sorting Table construction costs.
+
+| **Category**      | **Details**                            | **Price (MWK)** | **Price (USD)** |
+|-------------------|----------------------------------------|-----------------|-----------------|
+| Metal plates      | 2 plates: 120 cm × 210 cm              | 505,000         | 252.50          |
+| Square profiles   | 2 profiles: 40 mm × 40 mm, 1.6 mm, 6 m | 100,000         | 50.00           |
+| Angle profile     | 1 profile: 50 mm × 50 mm, 6 m          | 20,000          | 10.00           |
+| Welding           | -                                      | 100,000         | 50.00           |
+| **Total**         | -                                      | **725,000**     | **362.50**      |
+
+: Table 4. Lift construction costs.
+
+| **Category**     | **Details**                            | **Price (MWK)** | **Price (USD)** |
+|------------------|----------------------------------------|-----------------|-----------------|
+| Rope             | 5 m                                    | 20,000          | 10.00           |
+| Angle profiles   | 3 profiles: 50 mm × 50 mm, 6 m         | 50,000          | 25.00           |
+| Square profiles  | 2 profiles: 40 mm × 40 mm, 1.6 mm, 6 m | 278,000         | 139.00          |
+| Gate Tyre        | -                                      | 27,500          | 13.75           |
+| Welding          | -                                      | 100,000         | 50.00           |
+| **Total**        | -                                      | **475,500**     | **237.75**      |
 
 # Safety Precautions {#sec-safety}
 
