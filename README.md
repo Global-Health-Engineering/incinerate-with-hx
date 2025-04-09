@@ -2,15 +2,15 @@
 [![](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 <!-- badges: end -->
 
-<h1> Incinerator construction and air quality monitoring data for Cape Maclear, Malawi </h1>
+<h1> Incinerator adaptations and air quality monitoring data for Cape Maclear, Malawi </h1>
 
 <b>Contributors</b>  
 - Raphael Mignot-Bahisson <a href="https://orcid.org/0009-0004-6139-9243">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /> 0009-0004-6139-9243
-</a> *author, maintainer*  
+</a> *author*  
 - Jakub Tkaczuk <a href="https://orcid.org/0000-0001-7997-9423">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /> 0000-0001-7997-9423
-</a> *supervisor, developer*  
+</a> *supervisor, developer, maintainer*  
 - Elizabeth Tilley <a href="https://orcid.org/0000-0002-2095-9724">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /> 0000-0002-2095-9724
 </a> *supervisor*  
@@ -41,7 +41,7 @@ Additionally, this repository presents the design of a heat exchanger mounted on
 
 # Technical drawings
 
-Technical drawings, necessary to replicate the construction are available as CAD models and in pdf form in `cad` directory.
+Technical drawings, necessary to replicate the construction are available as CAD models and in pdf form in the `cad` directory.
 
 # License
 

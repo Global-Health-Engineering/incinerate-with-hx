@@ -1,5 +1,5 @@
 ---
-title: "Incinerator construction and air quality monitoring data for Cape Maclear, Malawi"
+title: "Incinerator adaptations and air quality monitoring data for Cape Maclear, Malawi"
 subtitle: "Design, Maintenance, Operation, and Results"
 number-sections: true
 format: html
@@ -12,17 +12,17 @@ format: html
 <b>Contributors</b>  
 - Raphael Mignot-Bahisson <a href="https://orcid.org/0009-0004-6139-9243">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /> 0009-0004-6139-9243
-</a> *author, maintainer*  
+</a> *author*  
 - Jakub Tkaczuk <a href="https://orcid.org/0000-0001-7997-9423">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /> 0000-0001-7997-9423
-</a> *supervisor, developer*  
+</a> *supervisor, developer, maintainer*  
 - Elizabeth Tilley <a href="https://orcid.org/0000-0002-2095-9724">
 <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /> 0000-0002-2095-9724
 </a> *supervisor*  
 
 <br>
 <p align="middle">
-![](img/ETH_GHE_logo.svg){width=90%}
+![](img/ETH_GHE_logo.svg){width=90%}  
 Github repository for this page sits [here](https://github.com/Global-Health-Engineering/incinerate-with-hx).
 </p>
 
@@ -32,17 +32,19 @@ This documentation details the improvements introduced to the incinerators const
 
 # Overview {#sec-overview}
 
-Documentation of the initial incinerator is available [here](https://global-health-engineering.github.io/incinerator-design-cape-maclear/). The work detailed in this repository and the underlying thesis addresses the challenges in the construction, visible through material degradation and combustion efficiency deterioration, after one year of operation.
+Documentation of the construction of two initial incinerators is available [here](https://global-health-engineering.github.io/incinerator-design-cape-maclear/). The work detailed in this repository and the underlying thesis address the challenges in the construction, visible through material degradation and combustion efficiency deterioration, after one year of operation.
 
 ![Figure 1. Clogged cyclone separator and chimney causing the smoke to evacuate through all cracks.](img/photo/clogged_chimney.jpg){width=50%}
 
 During initial testing, it became apparent that the cyclone separator, too small a chimney and cracks in the construction did not provide satisfactory conditions for complete combustion and became a bottleneck in the design, making the operation of the incinerators unbearable to the operators, questioning project's relevance.
 
+To address the above issues, the cracks, brickwork, cement, and broken metal parts were fixed. Two 4 m-long, 160 mm-wide chimneys were installed to increase the airflow and draft efficiency. A heat exchanger was added to the incinerator constructed at the premisses of Billy Riordan Memorial Clinic to heat water to wash hands and patients. In the end, a waste sorting table and an adjacent lift for trash cans at Sustainable Cape Maclear were installed. The costs of these adaptations are listed in the tables in the next section.
+
 # Part List {#sec-list}
 
 To ensure consistency across reporting, all the cost calculations were converted from MWK to USD with an exchange rate of 2,000 MWK/USD.
 
-: Table 1. Costs of existing incinerators' fixes.
+: Table 1. Costs of fixing the existing incinerators.
 
 | **Category**       | **Details**                           | **Price (MWK)** | **Price (USD)** |
 |:-------------------|:--------------------------------------|-----------------|-----------------|
@@ -52,12 +54,12 @@ To ensure consistency across reporting, all the cost calculations were converted
 | Bolts & nuts       | M10                                   | 8,000           | 4.00            |
 | Timber wire        | -                                     | 18,000          | 9.00            |
 | Labor              | 2 days of work (builder and helper)   | 34,000          | 17.00           |
-| Chimneys           | 8 meters in total                     | 650,000         | 325.00          |
+| Chimneys           | 8 meters in total, 160 mm diameter    | 650,000         | 325.00          |
 | Welding            | Chimneys and air vents                | 100,000         | 50.00           |
 | **TOTAL**          | for two incinerators                  | **933,500**     | **391.75**      |
 | **Total per incinerator** | -                              | **466,750**     | **233.38**      |
 
-: Table 2. Costs of adding a heat exchanger to the incinerator.
+: Table 2. Costs of adding a heat exchanger to one incinerator.
 
 | **Category**          | **Details**                            | **Price (MWK)** | **Price (USD)** |
 |-----------------------|----------------------------------------|-----------------|-----------------|
@@ -80,7 +82,7 @@ To ensure consistency across reporting, all the cost calculations were converted
 | Welding           | -                                      | 100,000         | 50.00           |
 | **Total**         | -                                      | **725,000**     | **362.50**      |
 
-: Table 4. Lift construction costs.
+: Table 4. Construction costs for a lift for trash bins.
 
 | **Category**     | **Details**                            | **Price (MWK)** | **Price (USD)** |
 |------------------|----------------------------------------|-----------------|-----------------|
@@ -97,4 +99,4 @@ Always wear protective equipment when working with glass. A mask, goggles, glove
 
 # License {#sec-license}
 
-The complete design and user manual are licensed under [Creative Commons Attribution 4.0 International](https://github.com/Global-Health-Engineering/glass-crusher-design/blob/main/LICENSE.md).
+The complete design and user manual are licensed under [Creative Commons Attribution 4.0 International](https://github.com/Global-Health-Engineering/incinerate-with-hx/blob/main/LICENSE.md).
