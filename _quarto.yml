@@ -8,6 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: incinerator_adaptations.qmd
+        text: Adaptations to Incinerators 
+      - href: heat_exchanger.qmd
+        text: Heat Exchanger
+      - href: lift.qmd
+        text: Lift
     right:
       - icon: "envelope-at"
         href: "mailto:ghe@mavt.ethz.ch?subject=Incinerator design"

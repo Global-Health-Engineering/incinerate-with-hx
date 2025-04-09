@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>docs - Incinerator adaptations and air quality monitoring data for Cape Maclear, Malawi</title>
+<title>docs - Heat exchanger</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./incinerator_adaptations.html"> 
-<span class="menu-text">Adaptations to Incinerators</span></a>
+<span class="menu-text">Incinerators’ Adaptations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./heat_exchanger.html"> 
+    <a class="nav-link active" href="./heat_exchanger.html" aria-current="page"> 
 <span class="menu-text">Heat Exchanger</span></a>
   </li>  
   <li class="nav-item">
@@ -133,25 +133,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#sec-intro" id="toc-sec-intro" class="nav-link active" data-scroll-target="#sec-intro"><span class="header-section-number">1</span> Introduction</a></li>
-  <li><a href="#sec-overview" id="toc-sec-overview" class="nav-link" data-scroll-target="#sec-overview"><span class="header-section-number">2</span> Overview</a></li>
-  <li><a href="#sec-list" id="toc-sec-list" class="nav-link" data-scroll-target="#sec-list"><span class="header-section-number">3</span> Part List</a></li>
-  <li><a href="#sec-safety" id="toc-sec-safety" class="nav-link" data-scroll-target="#sec-safety"><span class="header-section-number">4</span> Safety Precautions</a></li>
-  <li><a href="#sec-license" id="toc-sec-license" class="nav-link" data-scroll-target="#sec-license"><span class="header-section-number">5</span> License</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Incinerator adaptations and air quality monitoring data for Cape Maclear, Malawi</h1>
-<p class="subtitle lead">Design, Maintenance, Operation, and Results</p>
+<h1 class="title">Heat exchanger</h1>
 </div>
 
 
@@ -168,297 +157,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- badges: start -->
-<p><a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" class="img-fluid"></a> <!-- badges: end --></p>
-<p><b>Contributors</b><br>
-- Raphael Mignot-Bahisson <a href="https://orcid.org/0009-0004-6139-9243"> <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"> 0009-0004-6139-9243 </a> <em>author</em><br>
-- Jakub Tkaczuk <a href="https://orcid.org/0000-0001-7997-9423"> <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"> 0000-0001-7997-9423 </a> <em>supervisor, developer, maintainer</em><br>
-- Elizabeth Tilley <a href="https://orcid.org/0000-0002-2095-9724"> <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16"> 0000-0002-2095-9724 </a> <em>supervisor</em></p>
-<br>
-<p align="middle">
-<img src="img/ETH_GHE_logo.svg" class="img-fluid" style="width:90.0%"><br>
-Github repository for this page sits <a href="https://github.com/Global-Health-Engineering/incinerate-with-hx">here</a>.
-</p>
-<section id="sec-intro" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
-<p>This documentation details the improvements introduced to the incinerators constructed in Cape Malcear, Malawi in 2023. The adaptations and improvements took place between 22 October 2024 and 16 January 2025 during field work, being a part of a Master’s thesis at ETH Zürich of Raphael Mignot-Bahisson.</p>
-</section>
-<section id="sec-overview" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Overview</h1>
-<p>Documentation of the construction of two initial incinerators is available <a href="https://global-health-engineering.github.io/incinerator-design-cape-maclear/">here</a>. The work detailed in this repository and the underlying thesis address the challenges in the construction, visible through material degradation and combustion efficiency deterioration, after one year of operation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/photo/clogged_chimney.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Figure 1. Clogged cyclone separator and chimney causing the smoke to evacuate through all cracks.</figcaption>
-</figure>
-</div>
-<p>During initial testing, it became apparent that the cyclone separator, too small a chimney and cracks in the construction did not provide satisfactory conditions for complete combustion and became a bottleneck in the design, making the operation of the incinerators unbearable to the operators, questioning project’s relevance.</p>
-<p>To address the above issues, the cracks, brickwork, cement, and broken metal parts were fixed. Two 4 m-long, 160 mm-wide chimneys were installed to increase the airflow and draft efficiency. A heat exchanger was added to the incinerator constructed at the premisses of Billy Riordan Memorial Clinic to heat water to wash hands and patients. In the end, a waste sorting table and an adjacent lift for trash cans at Sustainable Cape Maclear were installed. The costs of these adaptations are listed in the tables in the next section.</p>
-</section>
-<section id="sec-list" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Part List</h1>
-<p>To ensure consistency across reporting, all the cost calculations were converted from MWK to USD with an exchange rate of 2,000 MWK/USD.</p>
-<table class="table">
-<caption>Table 1. Costs of fixing the existing incinerators.</caption>
-<colgroup>
-<col style="width: 21%">
-<col style="width: 41%">
-<col style="width: 18%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Category</strong></th>
-<th style="text-align: left;"><strong>Details</strong></th>
-<th><strong>Price (MWK)</strong></th>
-<th><strong>Price (USD)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Cement</td>
-<td style="text-align: left;">Fixing cracks</td>
-<td>137,500</td>
-<td>68.75</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Bricks</td>
-<td style="text-align: left;">Replacing cracked bricks</td>
-<td>36,000</td>
-<td>18.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Sand</td>
-<td style="text-align: left;">To mix with cement</td>
-<td>18,000</td>
-<td>9.00</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Bolts &amp; nuts</td>
-<td style="text-align: left;">M10</td>
-<td>8,000</td>
-<td>4.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Timber wire</td>
-<td style="text-align: left;">-</td>
-<td>18,000</td>
-<td>9.00</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Labor</td>
-<td style="text-align: left;">2 days of work (builder and helper)</td>
-<td>34,000</td>
-<td>17.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Chimneys</td>
-<td style="text-align: left;">8 meters in total, 160 mm diameter</td>
-<td>650,000</td>
-<td>325.00</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Welding</td>
-<td style="text-align: left;">Chimneys and air vents</td>
-<td>100,000</td>
-<td>50.00</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>TOTAL</strong></td>
-<td style="text-align: left;">for two incinerators</td>
-<td><strong>933,500</strong></td>
-<td><strong>391.75</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Total per incinerator</strong></td>
-<td style="text-align: left;">-</td>
-<td><strong>466,750</strong></td>
-<td><strong>233.38</strong></td>
-</tr>
-</tbody>
-</table>
-<table class="table">
-<caption>Table 2. Costs of adding a heat exchanger to one incinerator.</caption>
-<colgroup>
-<col style="width: 23%">
-<col style="width: 41%">
-<col style="width: 17%">
-<col style="width: 17%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Category</strong></th>
-<th><strong>Details</strong></th>
-<th><strong>Price (MWK)</strong></th>
-<th><strong>Price (USD)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Copper pipes</td>
-<td>15 meters, 1/2” diameter</td>
-<td>200,000</td>
-<td>100.00</td>
-</tr>
-<tr class="even">
-<td>Plastic drum</td>
-<td>210 L capacity</td>
-<td>100,000</td>
-<td>50.00</td>
-</tr>
-<tr class="odd">
-<td>Tabs</td>
-<td>2 drilled into each drum</td>
-<td>4,000</td>
-<td>2.00</td>
-</tr>
-<tr class="even">
-<td>Steel wire</td>
-<td>-</td>
-<td>18,500</td>
-<td>9.25</td>
-</tr>
-<tr class="odd">
-<td>Labor</td>
-<td>Assembling &amp; pipe bending</td>
-<td>58,500</td>
-<td>29.25</td>
-</tr>
-<tr class="even">
-<td>Lid</td>
-<td>To cover the plastic drum</td>
-<td>15,000</td>
-<td>7.50</td>
-</tr>
-<tr class="odd">
-<td>Adhesive</td>
-<td>Ensures air-tightness of the holes</td>
-<td>5,250</td>
-<td>2.61</td>
-</tr>
-<tr class="even">
-<td><strong>Total</strong></td>
-<td>-</td>
-<td><strong>398,750</strong></td>
-<td><strong>199.38</strong></td>
-</tr>
-</tbody>
-</table>
-<table class="table">
-<caption>Table 3. Waste Sorting Table construction costs.</caption>
-<colgroup>
-<col style="width: 20%">
-<col style="width: 43%">
-<col style="width: 18%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Category</strong></th>
-<th><strong>Details</strong></th>
-<th><strong>Price (MWK)</strong></th>
-<th><strong>Price (USD)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Metal plates</td>
-<td>2 plates: 120 cm × 210 cm</td>
-<td>505,000</td>
-<td>252.50</td>
-</tr>
-<tr class="even">
-<td>Square profiles</td>
-<td>2 profiles: 40 mm × 40 mm, 1.6 mm, 6 m</td>
-<td>100,000</td>
-<td>50.00</td>
-</tr>
-<tr class="odd">
-<td>Angle profile</td>
-<td>1 profile: 50 mm × 50 mm, 6 m</td>
-<td>20,000</td>
-<td>10.00</td>
-</tr>
-<tr class="even">
-<td>Welding</td>
-<td>-</td>
-<td>100,000</td>
-<td>50.00</td>
-</tr>
-<tr class="odd">
-<td><strong>Total</strong></td>
-<td>-</td>
-<td><strong>725,000</strong></td>
-<td><strong>362.50</strong></td>
-</tr>
-</tbody>
-</table>
-<table class="table">
-<caption>Table 4. Construction costs for a lift for trash bins.</caption>
-<colgroup>
-<col style="width: 19%">
-<col style="width: 43%">
-<col style="width: 18%">
-<col style="width: 18%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Category</strong></th>
-<th><strong>Details</strong></th>
-<th><strong>Price (MWK)</strong></th>
-<th><strong>Price (USD)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Rope</td>
-<td>5 m</td>
-<td>20,000</td>
-<td>10.00</td>
-</tr>
-<tr class="even">
-<td>Angle profiles</td>
-<td>3 profiles: 50 mm × 50 mm, 6 m</td>
-<td>50,000</td>
-<td>25.00</td>
-</tr>
-<tr class="odd">
-<td>Square profiles</td>
-<td>2 profiles: 40 mm × 40 mm, 1.6 mm, 6 m</td>
-<td>278,000</td>
-<td>139.00</td>
-</tr>
-<tr class="even">
-<td>Gate Tyre</td>
-<td>-</td>
-<td>27,500</td>
-<td>13.75</td>
-</tr>
-<tr class="odd">
-<td>Welding</td>
-<td>-</td>
-<td>100,000</td>
-<td>50.00</td>
-</tr>
-<tr class="even">
-<td><strong>Total</strong></td>
-<td>-</td>
-<td><strong>475,500</strong></td>
-<td><strong>237.75</strong></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="sec-safety" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Safety Precautions</h1>
-<p>Always wear protective equipment when working with glass. A mask, goggles, gloves and closed footwear are essential for protecting the operator’s health.</p>
-</section>
-<section id="sec-license" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> License</h1>
-<p>The complete design and user manual are licensed under <a href="https://github.com/Global-Health-Engineering/incinerate-with-hx/blob/main/LICENSE.md">Creative Commons Attribution 4.0 International</a>.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
