@@ -44,8 +44,6 @@ To address the above issues, the cracks, brickwork, cement, and broken metal par
 
 To ensure consistency across reporting, all the cost calculations were converted from MWK to USD with an exchange rate of 2,000 MWK/USD.
 
-: Table 1. Costs of fixing the existing incinerators.
-
 | **Category**       | **Details**                           | **Price (MWK)** | **Price (USD)** |
 |:-------------------|:--------------------------------------|-----------------|-----------------|
 | Cement             | Fixing cracks                         | 137,500         | 68.75           |
@@ -59,7 +57,7 @@ To ensure consistency across reporting, all the cost calculations were converted
 | **TOTAL**          | for two incinerators                  | **933,500**     | **391.75**      |
 | **Total per incinerator** | -                              | **466,750**     | **233.38**      |
 
-: Table 2. Costs of adding a heat exchanger to one incinerator.
+: Costs of fixing the existing incinerators. {#tbl-1}
 
 | **Category**          | **Details**                            | **Price (MWK)** | **Price (USD)** |
 |-----------------------|----------------------------------------|-----------------|-----------------|
@@ -72,7 +70,7 @@ To ensure consistency across reporting, all the cost calculations were converted
 | Adhesive              | Ensures air-tightness of the holes    | 5,250           | 2.61            |
 | **Total**             | -                                     | **398,750**     | **199.38**      |
 
-: Table 3. Waste Sorting Table construction costs.
+: Costs of adding a heat exchanger to one incinerator. {#tbl-2}
 
 | **Category**      | **Details**                            | **Price (MWK)** | **Price (USD)** |
 |-------------------|----------------------------------------|-----------------|-----------------|
@@ -82,7 +80,7 @@ To ensure consistency across reporting, all the cost calculations were converted
 | Welding           | -                                      | 100,000         | 50.00           |
 | **Total**         | -                                      | **725,000**     | **362.50**      |
 
-: Table 4. Construction costs for a lift for trash bins.
+: Waste Sorting Table construction costs. {#tbl-3}
 
 | **Category**     | **Details**                            | **Price (MWK)** | **Price (USD)** |
 |------------------|----------------------------------------|-----------------|-----------------|
@@ -92,6 +90,8 @@ To ensure consistency across reporting, all the cost calculations were converted
 | Gate Tyre        | -                                      | 27,500          | 13.75           |
 | Welding          | -                                      | 100,000         | 50.00           |
 | **Total**        | -                                      | **475,500**     | **237.75**      |
+
+: Construction costs for a lift for trash bins. {#tbl-4}
 
 # Safety Precautions {#sec-safety}
 

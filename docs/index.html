@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.545">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -198,8 +198,13 @@ Github repository for this page sits <a href="https://github.com/Global-Health-E
 <section id="sec-list" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Part List</h1>
 <p>To ensure consistency across reporting, all the cost calculations were converted from MWK to USD with an exchange rate of 2,000 MWK/USD.</p>
+<div id="tbl-1" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Costs of fixing the existing incinerators.
+</figcaption>
+<div aria-describedby="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
-<caption>Table 1. Costs of fixing the existing incinerators.</caption>
 <colgroup>
 <col style="width: 21%">
 <col style="width: 41%">
@@ -277,8 +282,16 @@ Github repository for this page sits <a href="https://github.com/Global-Health-E
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
+<div id="tbl-2" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Costs of adding a heat exchanger to one incinerator.
+</figcaption>
+<div aria-describedby="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
-<caption>Table 2. Costs of adding a heat exchanger to one incinerator.</caption>
 <colgroup>
 <col style="width: 23%">
 <col style="width: 41%">
@@ -344,8 +357,16 @@ Github repository for this page sits <a href="https://github.com/Global-Health-E
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
+<div id="tbl-3" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Waste Sorting Table construction costs.
+</figcaption>
+<div aria-describedby="tbl-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
-<caption>Table 3. Waste Sorting Table construction costs.</caption>
 <colgroup>
 <col style="width: 20%">
 <col style="width: 43%">
@@ -393,8 +414,16 @@ Github repository for this page sits <a href="https://github.com/Global-Health-E
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
+<div id="tbl-4" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;4: Construction costs for a lift for trash bins.
+</figcaption>
+<div aria-describedby="tbl-4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
-<caption>Table 4. Construction costs for a lift for trash bins.</caption>
 <colgroup>
 <col style="width: 19%">
 <col style="width: 43%">
@@ -448,6 +477,9 @@ Github repository for this page sits <a href="https://github.com/Global-Health-E
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
+</div>
 </section>
 <section id="sec-safety" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Safety Precautions</h1>
@@ -540,6 +572,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -574,7 +624,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
