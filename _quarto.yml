@@ -13,7 +13,7 @@ website:
       - href: heat_exchanger.qmd
         text: Heat Exchanger
       - href: lift.qmd
-        text: Lift
+        text: Lifting mechanism
     right:
       - icon: "envelope-at"
         href: "mailto:ghe@mavt.ethz.ch?subject=Incinerator design"

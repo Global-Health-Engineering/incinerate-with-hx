@@ -54,13 +54,13 @@ To ensure consistency across reporting, all the cost calculations were converted
 | Labor              | 2 days of work (builder and helper)   | 34,000          | 17.00           |
 | Chimneys           | 8 meters in total, 160 mm diameter    | 650,000         | 325.00          |
 | Welding            | Chimneys and air vents                | 100,000         | 50.00           |
-| **TOTAL**          | for two incinerators                  | **933,500**     | **391.75**      |
-| **Total per incinerator** | -                              | **466,750**     | **233.38**      |
+| **TOTAL**          | for two incinerators                  | **1,001,500**   | **500.75**      |
+| **Total per incinerator** | -                              | **500,750**     | **250.38**      |
 
 : Costs of fixing the existing incinerators. {#tbl-1}
 
-| **Category**          | **Details**                            | **Price (MWK)** | **Price (USD)** |
-|-----------------------|----------------------------------------|-----------------|-----------------|
+| **Category**          | **Details**                           | **Price (MWK)** | **Price (USD)** |
+|-----------------------|---------------------------------------|-----------------|-----------------|
 | Copper pipes          | 15 meters, 1/2" diameter              | 200,000         | 100.00          |
 | Plastic drum          | 210 L capacity                        | 100,000         | 50.00           |
 | Tabs                  | 2 drilled into each drum              | 4,000           | 2.00            |
@@ -68,7 +68,7 @@ To ensure consistency across reporting, all the cost calculations were converted
 | Labor                 | Assembling & pipe bending             | 58,500          | 29.25           |
 | Lid                   | To cover the plastic drum             | 15,000          | 7.50            |
 | Adhesive              | Ensures air-tightness of the holes    | 5,250           | 2.61            |
-| **Total**             | -                                     | **398,750**     | **199.38**      |
+| **Total**             | -                                     | **401,250**     | **200.63**      |
 
 : Costs of adding a heat exchanger to one incinerator. {#tbl-2}
 
@@ -92,6 +92,8 @@ To ensure consistency across reporting, all the cost calculations were converted
 | **Total**        | -                                      | **475,500**     | **237.75**      |
 
 : Construction costs for a lift for trash bins. {#tbl-4}
+
+The total cost of the work (repairs, improvements, and adaptations, not including student's labor) is $1301.63 USD.
 
 # Safety Precautions {#sec-safety}
 
