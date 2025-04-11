@@ -6,8 +6,8 @@ date-released: "2025-04-08"
 doi: DOI
 type: software
 authors:
-  - family-names: Mignot-Bahisson
-    given-names: Raphael
+  - family-names: Bahisson
+    given-names: Raphaël
     email: rbahisson@student.ethz.ch
     ordid: https://orcid.org/0009-0004-6139-9243
   - family-names: Tkaczuk
