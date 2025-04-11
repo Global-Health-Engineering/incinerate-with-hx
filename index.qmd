@@ -38,66 +38,11 @@ Documentation of the construction of two initial incinerators is available [here
 
 During initial testing, it became apparent that the cyclone separator, too small a chimney and cracks in the construction did not provide satisfactory conditions for complete combustion and became a bottleneck in the design, making the operation of the incinerators unbearable to the operators, questioning project's relevance.
 
-To address the above issues, the cracks, brickwork, cement, and broken metal parts were fixed. Two 4 m-long, 160 mm-wide chimneys were installed to increase the airflow and draft efficiency. A heat exchanger was added to the incinerator constructed at the premisses of Billy Riordan Memorial Clinic to heat water to wash hands and patients. In the end, a waste sorting table and an adjacent lift for trash cans at Sustainable Cape Maclear were installed. The costs of these adaptations are listed in the tables in the next section.
-
-# Part List {#sec-list}
-
-To ensure consistency across reporting, all the cost calculations were converted from MWK to USD with an exchange rate of 2,000 MWK/USD.
-
-| **Category**       | **Details**                           | **Price (MWK)** | **Price (USD)** |
-|:-------------------|:--------------------------------------|-----------------|-----------------|
-| Cement             | Fixing cracks                         | 137,500         | 68.75           |
-| Bricks             | Replacing cracked bricks              | 36,000          | 18.00           |
-| Sand               | To mix with cement                    | 18,000          | 9.00            |
-| Bolts & nuts       | M10                                   | 8,000           | 4.00            |
-| Timber wire        | -                                     | 18,000          | 9.00            |
-| Labor              | 2 days of work (builder and helper)   | 34,000          | 17.00           |
-| Chimneys           | 8 meters in total, 160 mm diameter    | 650,000         | 325.00          |
-| Welding            | Chimneys and air vents                | 100,000         | 50.00           |
-| **TOTAL**          | for two incinerators                  | **1,001,500**   | **500.75**      |
-| **Total per incinerator** | -                              | **500,750**     | **250.38**      |
-
-: Costs of fixing the existing incinerators. {#tbl-1}
-
-| **Category**          | **Details**                           | **Price (MWK)** | **Price (USD)** |
-|-----------------------|---------------------------------------|-----------------|-----------------|
-| Copper pipes          | 15 meters, 1/2" diameter              | 200,000         | 100.00          |
-| Plastic drum          | 210 L capacity                        | 100,000         | 50.00           |
-| Tabs                  | 2 drilled into each drum              | 4,000           | 2.00            |
-| Steel wire            | -                                     | 18,500          | 9.25            |
-| Labor                 | Assembling & pipe bending             | 58,500          | 29.25           |
-| Lid                   | To cover the plastic drum             | 15,000          | 7.50            |
-| Adhesive              | Ensures air-tightness of the holes    | 5,250           | 2.61            |
-| **Total**             | -                                     | **401,250**     | **200.63**      |
-
-: Costs of adding a heat exchanger to one incinerator. {#tbl-2}
-
-| **Category**      | **Details**                            | **Price (MWK)** | **Price (USD)** |
-|-------------------|----------------------------------------|-----------------|-----------------|
-| Metal plates      | 2 plates: 120 cm × 210 cm              | 505,000         | 252.50          |
-| Square profiles   | 2 profiles: 40 mm × 40 mm, 1.6 mm, 6 m | 100,000         | 50.00           |
-| Angle profile     | 1 profile: 50 mm × 50 mm, 6 m          | 20,000          | 10.00           |
-| Welding           | -                                      | 100,000         | 50.00           |
-| **Total**         | -                                      | **725,000**     | **362.50**      |
-
-: Waste Sorting Table construction costs. {#tbl-3}
-
-| **Category**     | **Details**                            | **Price (MWK)** | **Price (USD)** |
-|------------------|----------------------------------------|-----------------|-----------------|
-| Rope             | 5 m                                    | 20,000          | 10.00           |
-| Angle profiles   | 3 profiles: 50 mm × 50 mm, 6 m         | 50,000          | 25.00           |
-| Square profiles  | 2 profiles: 40 mm × 40 mm, 1.6 mm, 6 m | 278,000         | 139.00          |
-| Gate Tyre        | -                                      | 27,500          | 13.75           |
-| Welding          | -                                      | 100,000         | 50.00           |
-| **Total**        | -                                      | **475,500**     | **237.75**      |
-
-: Construction costs for a lift for trash bins. {#tbl-4}
-
-The total cost of the work (repairs, improvements, and adaptations, not including student's labor) is $1301.63 USD.
+To address the above issues, the cracks, brickwork, cement, and broken metal parts were fixed. Two 4 m-long, 160 mm-wide chimneys were installed to increase the airflow and draft efficiency. A heat exchanger was added to the incinerator constructed at the premisses of Billy Riordan Memorial Clinic to heat water to wash hands and patients. In the end, a waste sorting table and an adjacent lift for trash cans at Sustainable Cape Maclear were installed. Total cost of the work (repairs, improvements, and adaptations, not including student's labor) is $1301.63 USD. Details about all adaptations and their costs are provided on the following pages.
 
 # Safety Precautions {#sec-safety}
 
-Always wear protective equipment when working with glass. A mask, goggles, gloves and closed footwear are essential for protecting the operator’s health.
+Always wear protective equipment when working with heat and waste. A mask, goggles, gloves and closed footwear are essential for protecting the operator’s health.
 
 # License {#sec-license}
 

@@ -1,5 +1,0 @@
----
-title: "Lift for trash cans"
-number-sections: true
-format: html
----

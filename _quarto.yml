@@ -10,10 +10,10 @@ website:
         text: Home
       - href: incinerator_adaptations.qmd
         text: Adaptations to Incinerators 
-      - href: heat_exchanger.qmd
+      - href: hx.qmd
         text: Heat Exchanger
-      - href: lift.qmd
-        text: Lifting mechanism
+      - href: wst.qmd
+        text: Waste Sorting Table and Lift
     right:
       - icon: "envelope-at"
         href: "mailto:ghe@mavt.ethz.ch?subject=Incinerator design"

@@ -1,5 +1,0 @@
----
-title: "Heat exchanger"
-number-sections: true
-format: html
----
