@@ -3,7 +3,7 @@ message: "To cite this repository, use:"
 license: CC-BY-4.0
 title: "Incinerator design and air quality monitoring data for Cape Maclear, Malawi"
 date-released: "2025-04-08"
-doi: DOI
+doi: 10.5281/zenodo.15211039
 type: software
 authors:
   - family-names: Bahisson
