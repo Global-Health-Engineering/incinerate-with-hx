@@ -1,0 +1,6 @@
+﻿location,stage,waste_kg,burn_time_h,burning_rate_kg/h
+brc,initial,10,1.25,8
+brc,final,17,1.5,11.33333333
+scm,initial,20,2.25,8.888888889
+scm,intermediate,25,2.5,10
+scm,final,88,7,12.57142857

@@ -1,0 +1,6 @@
+﻿location,stage,flow_rate_m3/min,smoke_velocity_m/s
+brc,initial,1.8,3.5
+brc,final,3.4,4.2
+scm,initial,0,0
+scm,intermediate,1.8,3.5
+scm,final,3.4,4.1

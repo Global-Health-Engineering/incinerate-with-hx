@@ -1,0 +1,182 @@
+﻿directory,file_name,variable_name,variable_type,description,unit
+raw_data,air_smoke_flow.csv,location,string,incinerator's location (brc: Billy Riordan Memorial Clinic/scm: Sustainable Cape Maclear),NA
+raw_data,air_smoke_flow.csv,stage,string,stage of incinerator's improvements during which the measurement was taken,NA
+raw_data,air_smoke_flow.csv,flow_rate_m3/min,float,flow rate of the smoke measured at the top of the chimney measured thanks to a pitot tube,m3/min
+raw_data,air_smoke_flow.csv,smoke_velocity_m/s,float,smoke velocity measured at the top of the chimney thanks to a pitot tube,m/s
+raw_data,burning_rate.csv,location,string,incinerator's location (brc: Billy Riordan Memorial Clinic/scm: Sustainable Cape Maclear),NA
+raw_data,burning_rate.csv,stage,integer,stage of incinerator's improvements during which the measurement was taken,NA
+raw_data,burning_rate.csv,waste_kg,float,weight of waste before it is burned,kg
+raw_data,burning_rate.csv,burn_time_h,float,indicates the duration of the burning in question,h
+raw_data,burning_rate.csv,burning_rate_kg/h,float,"calculated burning rate for a given measurement, based of the weight of the waste and duration of burning",kg/h
+raw_data,ash2waste_ratio.csv,location,string,incinerator's location (brc: Billy Riordan Memorial Clinic/scm: Sustainable Cape Maclear),
+raw_data,ash2waste_ratio.csv,stage,integer,stage of incinerator's improvements during which the measurement was taken,NA
+raw_data,ash2waste_ratio.csv,waste_kg,float,weight of the waste about to be burned,kg
+raw_data,ash2waste_ratio.csv,ashes_kg,float,weight of the ashes resulting from the burning of the waste previously mentioned,kg
+raw_data,ash2waste_ratio.csv,ash2waste_ratio,float,ratio between weight of the resulting ashes and weight of waste before burning,NA
+raw_data,cyclone_separator_efficiency.csv,date,datetime,measurement date,yyyy-mm-dd
+raw_data,cyclone_separator_efficiency.csv,waste_kg,float,weight of the waste being burned,kg
+raw_data,cyclone_separator_efficiency.csv,container_weight_kg,float,weight of the container before the new waste is burned,kg
+raw_data,cyclone_separator_efficiency.csv,ash_kg,float,additional weight of the container once when the burning is over,kg
+raw_data,cyclone_separator_efficiency.csv,ash2waste_ratio,float,ratio between weight increase of the container and the weight of the waste that was burned,NA
+raw_data/pm,pm_open-waste-burning_1.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_1.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_1.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_2.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_2.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_2.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_3.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_3.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_open-waste-burning_3.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_1.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_1.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_1.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_2.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_2.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_2.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_3.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_3.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_cape-maclear_3.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_1.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_1.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_1.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_2.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_2.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_2.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_3.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_3.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_initial_3.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_1.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_1.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_1.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_2.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_2.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_2.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_3.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_3.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_brc-incinerator_final_3.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_1.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_1.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_1.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_2.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_2.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_2.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_3.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_3.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_initial_3.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_1.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_1.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_1.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_2.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_2.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_2.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_3.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_3.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_intermediate_3.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_1.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_1.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_1.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_2.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_2.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_2.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_3.csv,PM_A(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_3.csv,PM_B(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/pm,pm_scm-incinerator_final_3.csv,PM_C(ug/m^3),float,concentration of particulate matter PM10 in the air,1e-9 kg/m3
+raw_data/temp,temp_brc-hx_1.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_brc-hx_1.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_brc-hx_1.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_brc-hx_1.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_brc-hx_2.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_brc-hx_2.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_brc-hx_2.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_brc-hx_2.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_brc-hx_3.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_brc-hx_3.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_brc-hx_3.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_brc-hx_3.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_1.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_1.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_1.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_1.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_2.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_2.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_2.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_2.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_3.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_3.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_3.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_brc-incinerator_initial_3.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_1.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_1.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_1.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_1.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_2.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_2.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_2.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_2.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_3.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_3.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_3.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_initial_3.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_1.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_1.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_1.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_1.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_2.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_2.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_2.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_2.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_3.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_3.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_3.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_intermediate_3.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_1.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_2.csv,T4,float,temperature measured by 4th thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T1,float,temperature measured by 1st thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T2,float,temperature measured by 2nd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T3,float,temperature measured by 3rd thermocouple,deg C
+raw_data/temp,temp_scm-incinerator_final_3.csv,T4,float,temperature measured by 4th thermocouple,deg C
+derived_data/pm,pm_cape-maclear.csv,PM_A(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM10 in the air,1e-9 kg/m3
+derived_data/pm,pm_cape-maclear.csv,PM_B(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM2.5 in the air,1e-9 kg/m3
+derived_data/pm,pm_cape-maclear.csv,PM_C(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM1.0 in the air,1e-9 kg/m3
+derived_data/pm,pm_brc_incinerator_initial.csv,PM_A(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM10 in the air,1e-9 kg/m3
+derived_data/pm,pm_brc_incinerator_initial.csv,PM_B(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM2.5 in the air,1e-9 kg/m3
+derived_data/pm,pm_brc_incinerator_initial.csv,PM_C(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM1.0 in the air,1e-9 kg/m3
+derived_data/pm,pm_brc_incinerator_final.csv,PM_A(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM10 in the air,1e-9 kg/m3
+derived_data/pm,pm_brc_incinerator_final.csv,PM_B(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM2.5 in the air,1e-9 kg/m3
+derived_data/pm,pm_brc_incinerator_final.csv,PM_C(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM1.0 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_initial.csv,PM_A(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM10 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_initial.csv,PM_B(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM2.5 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_initial.csv,PM_C(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM1.0 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_intermediate.csv,PM_A(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM10 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_intermediate.csv,PM_B(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM2.5 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_intermediate.csv,PM_C(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM1.0 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_final.csv,PM_A(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM10 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_final.csv,PM_B(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM2.5 in the air,1e-9 kg/m3
+derived_data/pm,pm_scm_incinerator_final.csv,PM_C(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM1.0 in the air,1e-9 kg/m3
+derived_data/pm,pm_open-waste-burning.csv,PM_A(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM10 in the air,1e-9 kg/m3
+derived_data/pm,pm_open-waste-burning.csv,PM_B(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM2.5 in the air,1e-9 kg/m3
+derived_data/pm,pm_open-waste-burning.csv,PM_C(ug/m^3),float,Cleaned and averaged concentration of particulate matter PM1.0 in the air,1e-9 kg/m3
+derived_data/temp,temp_hx.csv,T,float,Averaged and cleaned temperature value,deg C
+derived_data/temp,temp_brc_incinerator_initial.csv,T,float,Averaged and cleaned temperature value,deg C
+derived_data/temp,temp_brc_incinerator_final.csv,T,float,Averaged and cleaned temperature value,deg C
+derived_data/temp,temp_scm_incinerator_initial.csv,T,float,Averaged and cleaned temperature value,deg C
+derived_data/temp,temp_scm_incinerator_intermediate.csv,T,float,Averaged and cleaned temperature value,deg C
+derived_data/temp,temp_scm_incinerator_final.csv,T,float,Averaged and cleaned temperature value,deg C

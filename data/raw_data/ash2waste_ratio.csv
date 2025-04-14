@@ -1,0 +1,16 @@
+﻿location,stage,waste_kg,ashes_kg,ash2waste_ratio
+brc,initial,5,1,0.2
+brc,initial,6,1.5,0.25
+brc,initial,7,1.5,0.214285714
+brc,final,10,1,0.1
+brc,final,10,1,0.1
+brc,final,9.5,1,0.105263158
+scm,initial,10,4.5,0.45
+scm,initial,20,8,0.4
+scm,initial,15,5,0.333333333
+scm,intermediate,15,4,0.266666667
+scm,intermediate,20,5,0.25
+scm,intermediate,25,7,0.28
+scm,final,88,16,0.181818182
+scm,final,50,8,0.16
+scm,final,70,12,0.171428571
